@@ -1,4 +1,5 @@
 https://www.postgresql.org/
+https://www.2ndquadrant.com/en/blog/pginstaller-install-postgresql/
 
 Python Setup:
 pip install psycopg2
