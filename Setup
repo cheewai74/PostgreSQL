@@ -1,1 +1,7 @@
 https://www.postgresql.org/
+
+Python Setup:
+pip install psycopg2
+
+JDBC:
+https://jdbc.postgresql.org/
