@@ -22,3 +22,7 @@ https://www.postgresqltutorial.com/postgresql-reset-password/
 
 pgAdmin:
 https://www.pgadmin.org/download/pgadmin-4-windows/
+
+Troubleshoot:
+pgadmin4-postgresql-application-server-could-not-be-contacted
+On Windows I found that clearing out the content inside C:\Users\%USERNAME%\AppData\Roaming\pgAdmin\sessions
