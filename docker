@@ -1,5 +1,6 @@
 
 * https://www.commandprompt.com/education/how-to-useexecute-postgresql-query-in-docker-container/
+* https://www.a2hosting.com/kb/developer-corner/postgresql/import-and-export-a-postgresql-database/
 * docker pull postgres
 
 * docker run -d --name postgresCont -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres
@@ -7,3 +8,6 @@
 * docker exec -it postgresCont bash
 * psql -h localhost -U postgres
 * \l
+*  E.g: Run docker run --name -d <cont-name> -p 5432:5432 -e POSTGRES_PASSWORD=<password> postgres
+* cd5ff642ec906ee903fb06c951e9427399802ab3963eaf5d515b4509d4ecbab3
+* docker run --name -d cd5ff642ec906ee903fb06c951e9427399802ab3963eaf5d515b4509d4ecbab3 -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres
