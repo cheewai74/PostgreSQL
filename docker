@@ -5,7 +5,7 @@
 
 * docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres
 * docker ps
-* docker exec -it postgresCont bash
+* docker exec -it postgres bash
 * psql -h localhost -U postgres
 * \l
 *  E.g: Run docker run --name -d <cont-name> -p 5432:5432 -e POSTGRES_PASSWORD=<password> postgres
