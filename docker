@@ -11,3 +11,4 @@
 *  E.g: Run docker run --name -d <cont-name> -p 5432:5432 -e POSTGRES_PASSWORD=<password> postgres
 * cd5ff642ec906ee903fb06c951e9427399802ab3963eaf5d515b4509d4ecbab3
 * docker run --name -d cd5ff642ec906ee903fb06c951e9427399802ab3963eaf5d515b4509d4ecbab3 -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres
+* docker inspect cd5ff642ec90 | findstr IPAddress
