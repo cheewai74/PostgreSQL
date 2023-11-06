@@ -1,0 +1,9 @@
+
+* https://www.commandprompt.com/education/how-to-useexecute-postgresql-query-in-docker-container/
+* docker pull postgres
+
+* docker run -d --name postgresCont -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres
+* docker ps
+* docker exec -it postgresCont bash
+* psql -h localhost -U postgres
+* \l
