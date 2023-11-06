@@ -3,7 +3,7 @@
 * https://www.a2hosting.com/kb/developer-corner/postgresql/import-and-export-a-postgresql-database/
 * docker pull postgres
 
-* docker run -d --name postgresCont -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres
+* docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres
 * docker ps
 * docker exec -it postgresCont bash
 * psql -h localhost -U postgres
